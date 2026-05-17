@@ -1,0 +1,30 @@
+## .gitignore для C# / Visual Studio
+
+# Папки збірки
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Файли налагодження
+*.pdb
+*.ilk
+*.exp
+
+# NuGet
+*.nupkg
+packages/
+*.lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Збережені ігри (опціонально)
+*.sdk
+records.json
